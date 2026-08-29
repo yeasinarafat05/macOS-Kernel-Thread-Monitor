@@ -7,6 +7,9 @@ An optimized system monitoring tool written in C for macOS that parallelizes ker
 - **Thread 2 (Mach Scheduler):** Queries `host_statistics` for User, System, and Idle CPU ticks.
 - **Thread 3 (BSD Kernel):** Queries `sysctlbyname` for hardware core count and system load average.
 - **Thread 4 (Mach Task Subsystem):** Queries `task_info` for resident memory footprint.
+- 
+## Project Demo
+[🎥 Watch Project Demo on  https://www.youtube.com/watch?v=J4D8xnK4xkE]
 
 ## How to Build & Run
 ```bash
